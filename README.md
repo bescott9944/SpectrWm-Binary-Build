@@ -25,15 +25,17 @@ SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
 
 My notes of how I did the build to follow soon!
 
-!Here are some of the NOTES from the Bash Script...
-!Script Date: 06/29/2020
-!Script Creator: Bruce E. Scott
-!Github: https://github.com/bescott9944
-!Forums: https://www.ezeelinux.com/talk/bescott9944
-!        https://forum.endeavouros.com/bescott9944
-!Licensed under the GNU and MIT respectively
+Here are some of the NOTES from the Bash Script...
 
-!PURPOSE Of This Script:
+Script Date: 06/29/2020,
+,Script Creator: Bruce E. Scott
+,Github: https://github.com/bescott9944
+,Forums: https://www.ezeelinux.com/talk/bescott9944
+,        https://forum.endeavouros.com/bescott9944
+,Licensed under the GNU and MIT respectively
+
+PURPOSE Of This Script:
+
 This Script is for installing/building the new Spectrwm build and the
 dependencies that are needed to build the newer binary version
 of SpectrWm... Doing this build to make a manual install... 06/29/2020 -Bruce
