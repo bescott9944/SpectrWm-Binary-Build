@@ -1,19 +1,24 @@
 # SpectrWm-Binary-Build
-SpectrWm Manual Binary Build / Manual Install so Future Updates of the binary can be easily implement with out the use of the Repo's.
+This SpectrWm Manual Binary Build / Manual Install so Future Updates of the binary can be easily implementand the use of symlinks, without the use
+of yours Disro's Repo's.
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
 explained how to build the binaries and what dependencies might be needed fof the build SpectrWm.
 The whole point of the video was to show how to install SpectWm without using the outdated Repo versions and use the binaries from SpectrWm's Githib page
-(https://github.com/conformal/spectrwm).
+(https://github.com/conformal/spectrwm) and how to install it on a headless OS install where the systems boots in to SpectrWm.
 This was a great video and got me to think, can it be done on Linux Mint 20 in a VM...
-Now after I spent 18 ours exploring this project and tested all the dependencies needed to make this happen, I seen in the comments of said video from
-Damiel Olsson... What luck... :-)
+
+My goal of this project was to see if SpectrWm can be build, installed, make it so it can be done using LightDm Login Manager and make the build without
+using "make install" to get everything working...
+Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen. Then I seen in the comments of said video from Damiel Olsson that suggested another way to do the dependencies easier... What luck... :-) Just my Luck... Lol
+---------
 Daniel Olsson said;
 1 day ago
 Nice video, sometimes i use sudo apt build-dep ( packagename) in this case spectrwm, then it will automatically pull in everything you need to recompile
-spectrWm :)...
+SpectrWm. :-)
+---------
 While I have not tested this to see, I like the idea...
-I will be adding my bash script I made and all the files I used to make this project work for ME and how I got Linux Mint 20 to show SpectrWm in the
-lightDm Login Menu and load SpectrWm window manager...
+I will be adding my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
+SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
 
 My notes of how I did the build to follow soon!
 
@@ -60,4 +65,3 @@ Here are some of the NOTES from the Bash Script...
 # junk food, and eating lots of Hot Pockets, and not to limited to the
 # building of bonfires, dancing around said bonfires and howling at the MOON!
 # YOU HAVE BEEN WARNED! -BES
-
