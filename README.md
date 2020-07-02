@@ -6,15 +6,19 @@ explained how to build the binaries and what dependencies might be needed fof th
 The whole point of the video was to show how to install SpectWm without using the outdated Repo versions and use the binaries from SpectrWm's Githib page
 (https://github.com/conformal/spectrwm) and how to install it on a headless OS install where the systems boots in to SpectrWm.
 This was a great video and got me to think, can it be done on Linux Mint 20 in a VM...
+
 My goal of this project was to see if SpectrWm can be build, installed, make it so it can be done using LightDm Login Manager and make the build without
 using "make install" to get everything working...
 Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen. Then I seen in the comments of
 said video from Damiel Olsson that suggested another way to do the dependencies easier... What luck... :-) Just my Luck... Lol
 
+........
+Daniel Olsson said;
+1 day ago
+Nice video, sometimes i use sudo apt build-dep ( packagename) in this case spectrwm, then it will automatically pull in everything you need to recompile
+SpectrWm. :-)
+........
 
-------
-
-------
 While I have not tested this to see, I like the idea...
 I will be adding my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
 SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
