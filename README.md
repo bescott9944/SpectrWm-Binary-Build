@@ -8,7 +8,8 @@ The whole point of the video was to show how to install SpectWm without using th
 This was a great video and got me to think, can it be done on Linux Mint 20 in a VM using LightDm login manager...
 
 My goal of this project was to see if SpectrWm can be build, installed, make it so it can be loaded using LightDm Login Manager and make the build without
-using "make install" to get everything working...I am using Linux Mint 20 in a VM as the test bed... See the "install.MD"
+using "make install" to get everything working..
+I am using Linux Mint 20 in a VM as the test bed... See the "install.MD"
 Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen.I seen in the comments of
 said video from Damiel Olsson that suggested another way to do the dependencies easier... What luck... :-) Just my Luck... Lol
 
@@ -19,7 +20,7 @@ Nice video, sometimes i use sudo apt build-dep ( packagename) in this case spect
 SpectrWm. :-)
 ........
 
-While I have not tested this to see, I like the idea...
+While I have not tested this to see if it works, I like the idea...
 I will be adding my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
 SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
 
