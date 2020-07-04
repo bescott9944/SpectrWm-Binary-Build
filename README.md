@@ -38,9 +38,10 @@ of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bru
 This script has been inspired by a video from The Linux Dabbler YouTube Channel. His Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g,
 The Video: https://www.youtube.com/watch?v=tYC7qxnjka4
 
-NOTE: This Bash file has been limited to 80 characters. You may need edit the line and change the "next line break ( \ )" of the bash file to suite your needs!
+NOTE: This Bash file has been limited to 80 characters. You may need edit the line and change the "next line
+break ( \ )" of the bash file to suite your needs!
 
-This Install dependencies list has been tested on Mint 20, 06/29/2020
+This Install dependencies list has been tested on Linux Mint 20, 06/29/2020
 
 Note: Some dependencies require the " -dev " versions of the dependencies and other do not. When dependencies are installed they will intern install their own dependencies too.. I don't know if this is do to Mint/Ubuntu Repos or not.
 
