@@ -13,9 +13,10 @@ I am using Linux Mint 20 in a VM as the test bed... See the "install.MD"
 Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen.I seen in the comments of
 said video from Damiel Olsson that suggested another way to do the dependencies easier... What luck... :-) Just my Luck... Lol
 
+For more information, See my notes on how I did the build, they are in the Install.MD!
+
 ........
 Daniel Olsson said;
-1 day ago
 Nice video, sometimes i use sudo apt build-dep ( packagename) in this case spectrwm, then it will automatically pull in everything you need to recompile
 SpectrWm. :-)
 ........
@@ -24,7 +25,6 @@ While I have not tested this to see if it works, I like the idea...
 I will be adding my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
 SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
 
-See My notes of how I did the build, they are in the Install.MD!
 
 Here are some of the NOTES from the Bash Script...
 
