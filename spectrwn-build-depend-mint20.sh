@@ -15,6 +15,10 @@
 # His Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g
 # The Video: https://www.youtube.com/watch?v=tYC7qxnjka4
 #
+# Change Log.
+# 07/04/2020
+# Made some changes to the dependencies list to work better. -Bruce
+#
 # NOTE: This Bash file has been limited to 80 characters. You may need edit
 # the line and change the "next line break ( \ )" of the bash file to suite
 # your needs!
@@ -51,14 +55,16 @@
 
 
 sudo apt install suckless-tools xterm libxt6 libc6 libx11-6 libx11-xcb1 \
-libx11-xcb-dev libxcb-icccm4 libxcb-keysyms1 libxcb-keysyms1-dev libxcb-randr0 \
+libx11-xcb-dev libxcb-icccm4 libxcb-icccm4-dev libxcb-keysyms1 \
+libxcb-keysyms1-dev libxcb-randr0 \
 libxcb-randr0-dev libxcb-util1 libxcb-xinput0 libxcb-xtest0-dev libxcb1-dev \
 libxcursor1 libxcursor-dev libxft-dev libxft2-dev xfonts-terminus \
 build-essential libxrandr-dev libxcb-xfixes0-dev libxpathselect-dev \
-libfontconfig1-dev libxpat1-dev libfreetype6-dev libice-dev libpng-dev \
+libfontconfig1-dev libfreetype6-dev libice-dev libpng-dev \
 libpng-tools libpthread-stubs0-dev libsm-dev libxau-dev libxcb-render0-dev \
 libxdmcp-dev libxfixes-dev libxrender-dev pkg-config uuid-dev \
 x11proto-core-dev x11proto-dev  x11proto-fixes-dev xorg-sgml-doctools \
-xtrans-dev zlib1g-dev libxcb-xinput-dev libxcb-xrm-dev libxt-dev
+xtrans-dev zlib1g-dev libxcb-xinput-dev libxcb-xrm-dev libxt-dev \
+libxpathselect1.4v5 libxpathselect-dev
 
 
