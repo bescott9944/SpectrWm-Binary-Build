@@ -1,10 +1,5 @@
 # SpectrWm-Binary-Build-Github-Readme.MD
 #
-#      ___ ___  ___ ____/ /______    ____ _  
-#     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
-#    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
-#        /_/                                 
-#
 # Overview:
 This SpectrWm Manual Binary Build / Manual Install was created so Future Updates of the binary can be easily implement and with the use of symlinks,
 and without the use of yours Disro's Repo's.
@@ -12,7 +7,7 @@ All you have to do is build the new binary file and place it in ~/bin (In My Bui
 
 ### This project is for / tested for Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
 
-# Insperation:
+# Inspiration:
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
 explained how to build the binaries and what dependencies might be needed of the build of SpectrWm.
 The whole point of the video was to show how to install SpectWm without using the outdated Repo versions and use the binaries from SpectrWm's GitHub page
@@ -52,53 +47,35 @@ SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
     The Bash script to finish the install
 
 # Special File
-I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
-permissions, symlinks and make the directories that are needed and put the spectrwn.comfig in the proper place in the USER .config folder..
+I have made a Bash file called "After-Build.sh" to finish the install process. I am no script writer but the script does function as
+intended, it my not be pretty or to spects but it works, so be kind with your comments as this is the 2nd ever Bash Script I have made
+from scratch... :-)
+The "After-Build.sh" will copy all the files to their proper places and set the file
+permissions, symlinks and make the directories that are needed and put the spectrwn.config in the proper place in the USER .config folder..
 
 ------------------------------------------------------
 
 Here are some of the NOTES from the Bash Script...
-# Script Date: 06/29/2020
-# Script Creator: Bruce E. Scott
-# Github: https://github.com/bescott9944
-# Forums: https://www.ezeelinux.com/talk/bescott9944
-#         https://forum.endeavouros.com/bescott9944
-# Licensed under the GNU and MIT respectively
-#
-# PURPOSE Of This Script:
-# This Script is for installing/building the new Spectrwm build and the
-# dependencies that are needed to build the newer binary version
-# of SpectrWm... Doing this build to make a manual install... 06/29/2020 -Bruce
-# This script was inspired by a video from The Linux Dabbler YouTube Channel.
-# His Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g
-# The Video: https://www.youtube.com/watch?v=tYC7qxnjka4
-#
-# NOTE: This Bash file has been limited to 80 characters. You may need edit
-# the line and change the "next line break ( \ )" of the bash file to suite
-# your needs!
-#
-# This Install dependencies list has been tested on Mint 20, 06/29/2020
-#
-# Note: Some dependencies require the " -dev " versions of the dependencies and
-# other do not. When dependencies are installed they will intern install their
-# own dependencies too.. I don't know if this is do to Mint/Ubuntu Repos or not.
-#
-# The build that I did needed all these dependencies before the "make" part of
-# the build would run with out any error in the output and before the binary
-# file would compile.
-# There was a lot of trial and error an a few hours of testing to produce this
-# list. You mileage may vary as dependencies and files change over time.
-# with that said this script is a good starting place.
-# I have not tested this script on anything other than Linux Mint 20, in a VM
-#  for testing purpose...
-#
-# WARNING: USE AT YOUR OWN RISK!
-# I or any of my affiliates will or will not be held responsible for any loss
-# of data, software, operating systems, damage to, wiping of, altering of, and
-# any other thing else that might happen using this script!
-# That also includes the urges to drink lots of coffee, Rum, eating of
-# junk food, and eating lots of Hot Pockets, and not to limited to the
-# building of bonfires, dancing around said bonfires and howling at the MOON!
-# YOU HAVE BEEN WARNED! -BES
 
+Script Date: 06/29/2020,Script Creator: Bruce E. Scott, Github: https://github.com/bescott9944, Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944, icensed under the GNU and MIT respectively
+
+PURPOSE Of This Script:
+
+This Script is for installing / building the new Spectrwm build and the dependencies that are needed to build the newer binary version of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bruce
+
+This script has been inspired by a video from The Linux Dabbler YouTube Channel. His Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g, The Video: https://www.youtube.com/watch?v=tYC7qxnjka4
+
+NOTE: This Bash file has been limited to 80 characters. You may need edit the line and change the "next line break ( \ )" of the bash file to suite your needs!
+
+This Install dependencies list has been tested on Linux Mint 20, 06/29/2020
+
+Note: Some dependencies require the " -dev " versions of the dependencies and other do not. When dependencies are installed they will intern install their own dependencies too.. I don't know if this is do to Mint/Ubuntu Repos or not.
+
+The do the build I needed all these dependencies before the "make" part of the build would run with out any error in the output of the "make" and before the binary file would compile with out any errors.
+
+There was a lot of trial and error and a few hours of testing to produce this list. You mileage may vary as dependencies and files change over time. with that said this script is a good starting place.I have not tested this script on anything other than Linux Mint 20, in a VM for testing purpose...
+
+WARNING: USE AT YOUR OWN RISK!
+
+With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing elsethat might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
 
