@@ -34,6 +34,9 @@
 # Note: Some dependencies require the " -dev " versions of the dependencies and
 # other do not. When dependencies are installed they will intern install their
 # own dependencies too.. I don't know if this is do to Mint/Ubuntu Repos or not.
+# The do the build I needed all these dependencies before the "make" part of the build
+# would run with out any error in the output of the "make" and before the binary file
+# would compile with out any errors In Linux Mint 20.
 #
 # The build that I did needed all these dependencies before the "make" part of
 # the build would run with out any error in the output and before the binary
@@ -52,6 +55,7 @@
 # junk food, and eating lots of Hot Pockets, and not to limited to the
 # building of bonfires, dancing around said bonfires and howling at the MOON!
 # YOU HAVE BEEN WARNED! -BES
+# sudo apt install g++-multilib g++-9-multilib stterm xfonts-terminus-oblique xfonts-cyrillic
 
 
 sudo apt install suckless-tools xterm libxt6 libc6 libx11-6 libx11-xcb1 \
