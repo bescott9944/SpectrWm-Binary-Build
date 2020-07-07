@@ -1,10 +1,5 @@
 # SpectrWm-Binary-Build-Github-Readme.MD
-#
-#      ___ ___  ___ ____/ /______    ____ _  
-#     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
-#    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
-#        /_/                                 
-#
+
 # Overview:
 This SpectrWm Manual Binary Build / Manual Install was created so Future Updates of the binary can be easily implement and with the use of symlinks,
 and without the use of yours Disro's Repo's.
