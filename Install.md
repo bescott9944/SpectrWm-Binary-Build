@@ -1,17 +1,17 @@
 # Install.md
-#
-#      ___ ___  ___ ____/ /______    ____ _  
-#     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
-#    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
-#        /_/                                 
-#
+
+         ___ ___  ___ ____/ /______    ____ _  
+        (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
+       /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
+          /_/                                 
+
 Hello to you All!
 Thanks you for looking at my project.
 This is the process I followed to build the binary for installing/building the new Spectrwm build and the dependencies that are needed to build the newer binary version of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bruce
 
 The scripts and project was inspired by a video from The Linux Dabbler YouTube Channel. The Linux Dabbler Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g
 The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I watched to produce this project...
-# _____________________________________________________________________________
+# _____________________________________________________________
 
 ### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
 
