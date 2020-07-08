@@ -13,7 +13,7 @@ All you have to do is build the new binary file and place it in ~/bin (In My Bui
 
 ### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
 
-#Known Issues:
+Known Issues:
 ### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
 
 # Inspiration:
@@ -85,5 +85,3 @@ There was a lot of trial and error and a few hours of testing to produce this li
 WARNING: USE AT YOUR OWN RISK!
 
 With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing else that might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
-
-
