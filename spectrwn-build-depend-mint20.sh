@@ -1,5 +1,12 @@
 # !/BIN/BASH
 #
+#
+#      ___ ___  ___ ____/ /______    ____ _  
+#     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
+#    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
+#        /_/                                 
+#
+#
 # Script Date: 06/29/2020
 # Script Creator: Bruce E. Scott
 # Github: https://github.com/bescott9944
@@ -55,7 +62,8 @@
 # junk food, and eating lots of Hot Pockets, and not to limited to the
 # building of bonfires, dancing around said bonfires and howling at the MOON!
 # YOU HAVE BEEN WARNED! -BES
-# sudo apt install g++-multilib g++-9-multilib stterm xfonts-terminus-oblique xfonts-cyrillic
+# sudo apt install g++-multilib g++-9-multilib stterm xfonts-terminus-oblique
+# xfonts-cyrillic
 
 
 sudo apt install suckless-tools xterm libxt6 libc6 libx11-6 libx11-xcb1 \

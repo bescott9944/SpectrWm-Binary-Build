@@ -5,13 +5,16 @@
     /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
         /_/                                 
 
+#
 # Overview:
 This SpectrWm Manual Binary Build / Manual Install was created so Future Updates of the binary can be easily implement and with the use of symlinks,
 and without the use of yours Disro's Repo's.
 All you have to do is build the new binary file and place it in ~/bin (In My Build)...
 
-### This project is for / tested for Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
-### I have had the "Make" Fail 2 times. When this happens Spectrwm will not load. Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
+### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
+
+#Known Issues:
+### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
 
 # Inspiration:
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
@@ -40,9 +43,9 @@ I did looked into this on Linux Mint 20 and it would require making changes to t
 a curtain way and so on, so I elected to use my own Dependencies script instead of this method...
 
 I have added my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
-SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
+SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
 
-# Files of the project
+# Files of the project:
     Install.MD
     The install instruction
 
@@ -52,18 +55,16 @@ SpectrWm in the lightDm Login Menu and load SpectrWm window manager...
     After-Build.sh
     The Bash script to finish the install
 
-# Special File
-I have made a Bash file called "After-Build.sh" to finish the install process. I am no script writer but the script does function as
-intended, it my not be pretty or to spects but it works, so be kind with your comments as this is the 2nd ever Bash Script I have made
-from scratch... :-)
-The "After-Build.sh" will copy all the files to their proper places and set the file
+# Special Files:
+I have created "spectrwn-build-depend-mint20.sh" this will install the dependencies!
+I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
 permissions, symlinks and make the directories that are needed and put the spectrwn.config in the proper place in the USER .config folder..
 
 ------------------------------------------------------
 
 Here are some of the NOTES from the Bash Script...
 
-Script Date: 06/29/2020,Script Creator: Bruce E. Scott, Github: https://github.com/bescott9944, Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944, icensed under the GNU and MIT respectively
+Script Date: 06/29/2020,Script Creator: Bruce E. Scott, Github: https://github.com/bescott9944, Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944, licensed under the GNU and MIT respectively
 
 PURPOSE Of This Script:
 
@@ -83,5 +84,6 @@ There was a lot of trial and error and a few hours of testing to produce this li
 
 WARNING: USE AT YOUR OWN RISK!
 
-With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing elsethat might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
+With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing else that might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
+
 
