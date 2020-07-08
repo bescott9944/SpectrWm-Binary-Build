@@ -1,5 +1,10 @@
 # SpectrWm-Binary-Build-Github-Readme.MD
 #
+      ___ ___  ___ ____/ /______    ____ _  
+     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
+    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
+        /_/                                 
+
 # Overview:
 This SpectrWm Manual Binary Build / Manual Install was created so Future Updates of the binary can be easily implement and with the use of symlinks,
 and without the use of yours Disro's Repo's.
@@ -80,7 +85,3 @@ WARNING: USE AT YOUR OWN RISK!
 
 With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing elsethat might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
 
-      ___ ___  ___ ____/ /______    ____ _  
-     (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
-    /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
-        /_/                                 
