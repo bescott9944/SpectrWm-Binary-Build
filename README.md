@@ -6,6 +6,7 @@ and without the use of yours Disro's Repo's.
 All you have to do is build the new binary file and place it in ~/bin (In My Build)...
 
 ### This project is for / tested for Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
+### I have had the "Make" Fail 2 times. When this happens Spectrwm will not load. Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
 
 # Inspiration:
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
