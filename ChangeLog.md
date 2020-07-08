@@ -6,37 +6,37 @@
 
 Lead Developer: Bruce E. Scott
 
-#July 1st 2020
+# July 1st 2020
 Created the Github page and setup all the files.
 Added the Bash files, README.MD, Install.MD and so on.
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 2nd 2020
+# July 2nd 2020
 Added some more and updates to the instructions.
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 3rd
+# July 3rd
 I have created "spectrwn-build-depend-mint20.sh" this will install the
 dependencies! I have made a Bash file called "After-Build.sh" to finish the
 install process.
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 4th 2020
+# July 4th 2020
 I did another VM install and made some changes to the dependencies
 and made a few additions to the instructions and the build process's.
 I also did another another install with the New Linux Mint 20 (Not Beta)
 in a VM.
 Updated all the files a bit...
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 6th 2020
+# July 6th 2020
 Started to make The "After-Build.sh" That will copy all the build binary files
 to their proper places and set the file permissions, symlinks and to make
 the directories that are needed and put the spectrwn.config in the proper
 place in the USER .config folder..
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 7th 2020
+# July 7th 2020
 I did several more Linux Mint 20 install in a VM and so far all went well!
 
 I also made some revisions to the text and Doc files so that they make
@@ -53,9 +53,9 @@ where they need to be and copy the default spectrwn.conf to the new
 
 I have tested it a ton of times and it works as it should.
 With that said, like most thing it works for now! :-)
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#July 8th 2020
+# July 8th 2020
 I have tested some more and I had a issue where Spectrwm would not load from
 the Login screen with LightDM. so I add this to the README.MD
 
@@ -67,8 +67,8 @@ Also I'm updating the install.md with some better install information as I am
 thinking that some folks are not going to watch Linux Dabblers video. They will
 need to have a Better Overview on how to Make the Spectrwm Binary file
 to start with and what is needed to do so to get it installed.
-#-----------------------------------------------------
+# -----------------------------------------------------
 
-#-----------------------------------------------------
+# -----------------------------------------------------
 
 
