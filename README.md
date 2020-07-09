@@ -13,10 +13,10 @@ This SpectrWm Manual Binary Build & Manual Install was created so Future Updates
 to my ~/bin where I keep all my scripts files. I want to upgrade spectrwm without the use of the Disro's Repo's. and ease of upgrading my "your" spectrwm install.
 All you have to do is build the new binary file and place it in ~/bin (In My Build)...
 
-### This project is for AND tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
+# This project is for & tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
 
 # Known Issues:
-### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
+# I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work...
 
 # Inspiration:
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
@@ -93,11 +93,11 @@ WARNING: USE AT YOUR OWN RISK!
 
 With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing elsethat might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
 
- Lead Developer: Bruce E. Scott
- Script Creator: Bruce E. Scott
- Github: https://github.com/bescott9944
- Forums: https://www.ezeelinux.com/talk/bescott9944
-         https://forum.endeavouros.com/bescott9944
- Licensed under the GNU and MIT respectively
+Lead Developer: Bruce E. Scott
+Script Creator: Bruce E. Scott
+Github: https://github.com/bescott9944
+Forums: https://www.ezeelinux.com/talk/bescott9944
+        https://forum.endeavouros.com/bescott9944
+Licensed under the GNU and MIT respectively
 
 
