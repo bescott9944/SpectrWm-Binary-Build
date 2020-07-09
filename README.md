@@ -25,7 +25,7 @@ The whole point of the video was to show how to install SpectWm without using th
 (https://github.com/conformal/spectrwm) and how to install it on a headless OS install where the systems boots straight in to SpectrWm.
 This was a great video and got me to think, can it be done on Linux Mint 20 in a VM using LightDm login manager...
 
-## Goal's:
+## Goals:
 My goal of this project are to see if SpectrWm can be build, installed, and make it so it can be loaded using LightDm Login Manager and make the build without
 using "make install" to get everything working...
 Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen. I seen in the comments of
@@ -47,17 +47,17 @@ I have added my bash script I made and all the files and dependencies I used to 
 SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
 
 ## Files of the project:
- Install.MD
+ Install-guide.md
  The install instruction
 
- spectrwn-build-depend-mint20.sh
+ build-depend-mint20.sh
  The dependencies Bash install script
 
  After-Build.sh
  The Bash script to finish the install
 
 ## Special Files:
-I have created "spectrwn-build-depend-mint20.sh" this will install the dependencies!
+I have created "build-depend-mint20.sh" this will install the dependencies!
 I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
 permissions, symlinks and make the directories that are needed and put the spectrwn.config in the proper place in the USER .config folder..
 
