@@ -7,7 +7,7 @@
        |  ._   _ _|_  _. | | __ /__     o  _|  _    ._ _   _| 
       _|_ | | _>  |_ (_| | |    \_| |_| | (_| (/_ o | | | (_| 
 
-Hello and thanks you for looking at my project.
+Hello and thank you for looking at my project.
 This is install guide and process I followed to build the binary files for installing/building the new Spectrwm build and the dependencies that are needed to build the newer
 binary version of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bruce
 
