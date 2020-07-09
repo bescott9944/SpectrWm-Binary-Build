@@ -123,5 +123,3 @@ Forums: https://www.ezeelinux.com/talk/bescott9944
 Forums: https://forum.endeavouros.com/bescott9944
 
 Licensed under the GNU and MIT respectively
-
-
