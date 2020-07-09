@@ -1,13 +1,19 @@
 # Install.md
-
          ___ ___  ___ ____/ /______    ____ _  
         (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
        /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
           /_/                                 
+       ___                                
+        |  ._   _ _|_  _. | |    _| ._ _  
+       _|_ | | _>  |_ (_| | | o (_| | | | 
 
-Hello to you All!
-Thanks you for looking at my project.
-This is the process I followed to build the binary for installing/building the new Spectrwm build and the dependencies that are needed to build the newer binary version of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bruce
+Hello and thanks you for looking at my project.
+This is install guide and process I followed to build the binary files for installing/building the new Spectrwm build and the dependencies that are needed to build the newer
+binary version of SpectrWm... I am doing this build to make a manual install... 06/29/2020 -Bruce
+
+This SpectrWm Manual Binary Build & Manual Install guide was created so Future Updates of the binary can be easily implement and with the use of symlinks,
+to my ~/bin where I keep all my scripts files. I want to upgrade spectrwm without the use of the Disro's Repo's. and ease of upgrading my "your" spectrwm install.
+All you have to do is build the new binary file and place it in ~/bin (In My Build)...
 
 The scripts and project was inspired by a video from The Linux Dabbler YouTube Channel. The Linux Dabbler Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g
 The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I watched to produce this project...
@@ -18,7 +24,7 @@ The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I wa
 I have tested some more and I had a issue where Spectrwm would not load from the Login screen. so I add this to the README.MD
 
 # Known Issues
-### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
+### I have had the "Make" Fail 2 times. So When, or If this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
 
 # Now it has come to mind, that some better install information needs to be added. #
 
@@ -35,7 +41,7 @@ Spectrwm.zip files to.
 
 This whole project is based on the "WORK" directory in your /home folder "/home/work"... Copy the Zip file you downloaded, to you /home/work folder and extract the zip file into
 that Work Folder.
-Onced Extrated, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this folder will need to be renamed to "spectrwm-3.4.1" for my "after-build.sh" script to function as intended.
+Once Extracted, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this folder will need to be renamed to "spectrwm-3.4.1" for my "after-build.sh" script to function as intended.
 
 ### PLEASE remember if you use some other directory the "after-build.sh" script WILL NOT WORK!### You will have to alter the script to you NEEDS... ###
 
@@ -59,53 +65,56 @@ I should get a medal for the most "Trial And Errors" but I have SpectrWm shoehor
 
 This created to several hurdles to overcome.
 Getting all the Dependencies was the 1st hurdle to get the binary built.
-Getting SpectrWm to show up in LighDM was also the 2nd treat to get working!
+Getting SpectrWm to show up in LightDm was also the 2nd treat to get working!
 After making the SpectrWm binary I copied it to my ~/bin folder and made sure to "chmod +x SpectrWm" to make it extricable and work in Linux Mint using the LightDm login
 Manager to start SpectrWm.
 
 # Things to do...
 
-# Special Files:
-I have created "spectrwn-build-depend-mint20.sh" this will install the dependencies!
-I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
-permissions, symlinks and make the directories that are needed and put the spectrwn.comfig in the proper place in the USER .config folder..
+# Created Special Files:
+I have created a Bash file called "spectrwn-build-depend-mint20.sh" this will install the dependencies needed to make the building process!
+I have created a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the binary files to their proper places and set the file
+permissions, symlinks and make the directories that are needed, then put the (default)spectrwn.config in the proper place in the USER's home .config folder..
 
-0. I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the binary files to their proper places and set the file
-permissions, symlinks, also make the directories that are needed, then put the (defualt)spectrwn.config in the proper place in the USER's /.config folder..
-
-# Note you will have to edit the defualt spectrwm.config and baraction.sh files yourself to get Spectrwm and the baraction.sh to function. This is beyond the scope of this guide.#
+# Note you will have to edit the default spectrwm.config and baraction.sh files yourself to get Spectrwm and the baraction.sh to function. This is beyond the scope of this guide.#
 
 1. Change the UN-archived file name of spectrwm-SPECTRWM_3_4_1 to the file name of spectrwm-3.4.1, from here on in this will be refereed to as spectrwm build folder.
 
-2. There is a SpectrWm.desktop file located in the spectrwm-3.4.1/linux folder that needs to be placed/copied in the /usr/share/xsessions folder where you will also find the
-cinnamon.desktop and cinnamon.desktop2 or something like that. This will let LightDm find and show the SpectrWm login option after booting the system where you hit the
-little button and select what desktop you want to load!
+2. There is a spectrwm.desktop file located in the spectrwm-3.4.1/linux folder that needs to be placed/copied into the /usr/share/xsessions folder where you will also find the
+cinnamon.desktop and cinnamon.desktop (software rendering), The files will Not have .desktop after then, it is masked I think. Doing this will let LightDm find and show
+the SpectrWm login option after booting the system where you hit the little button and select what desktop you want to load!
 
-3. NOW in the spectrwm-3.4.1/linux you will also need to copy libswmhack.so.0.0 to /usr/local/lib folder. If not, SpectrWm will complain about not finding the file when 
-you start SpectrWm.
+3. Now you will find in the spectrwm-3.4.1/linux folder called libswmhack.so.0.0, you will also need to copy it to /usr/local/lib folder. If you do not, SpectrWm will complain
+about not finding the file when you start SpectrWm.
 
-4. After making the SpectrWm binary, it will need to be copied it to the ~/bin folder and made sure to "chmod +x SpectrWm" to make it extricable.
+4. After making the SpectrWm binary, it will also need to be copied to the ~/bin folder and make sure to "chmod +x SpectrWm" to make it extricable.
 
-5. After you do all of this there is one more thing that you will have to do to get Mint and LightDm to show the spectrwm boot option...
+5. After you do all of this, there is one more thing that you will have to do to get Mint and LightDm to show the spectrwm boot option...
 You will need to create a Symlink to the build of SpectrWm that you have coped into your ~/bin folder. You will have to place the symlink in the /bin because even though
 your local ~/bin is in my path and .profile LightDm will not find SpectrWm to start it because SpectrWm is not in the boot-up path yet, so it is not found and
 will not boot SpectrWm.
+You can create the symlink in the terminal by issuing the "ln -sf ~/bin/spectrwm /bin/specrtwm" command, this will create a symlink of the ~/bin/specrtwm to the /bin folder..
 
-6. Sooo you will need to put the symlink in /bin folder and point the symlink to your SPECTRWM build that you have copied to your ~/bin folder this will let LightDm and Mint
-find the symlink and load SpectrWm.
-
-The /bin folder is where Mint has Cinnamon starting from too... So BAM! SpectrWm is loaded into LightDm ( Last Hurdle ) as a pull down option to select and load SpectrWm
-or Linux Mint and when I login SpectrWm loads... NICE!
+6. You will need to make sure that the symlink is in the /bin folder and that it points to your SPECTRWM build that you have copied to your ~/bin folder. checking this will
+insure that LightDm and Mint find the symlink and load Spectrwm.
+The /bin folder is also where Mint has all the Cinnamon files starting from too... Logout and select the pull down on the LightDm menu and select Spectrwm and BAM!
+SpectrWm is loaded into LightDm menu ( Last Hurdle ) as a pull down option to select and load SpectrWm or Linux Mint and when I login SpectrWm loads... NICE!
 
 No I did not use "make install" BUT I was close... Lol
 
 7. Oh! Now SpectrWm looks for the "spectrwm.conf" in ~.config/spectrwm Folder, Not User Home "~/ "...
 It only took me a hour to figure that one out. I could get SpectrWm to load from LightDm but it keep having exceptions error about "Xlock", I don't use it,
-then I remember a post that it now loads in the .config/Spectrwm folder... \:-|
+then I remember a post that "spectrwm.conf" is now loads in the .config/Spectrwm folder... \:-|
 
 WoHo! I done IT!  :-D  :-)  :-P
 
 With that said, YES you can build SpectrWm 3.4.1 on a Linux Mint 20 install in a VM.
 
+ Lead Developer: Bruce E. Scott
+ Script Creator: Bruce E. Scott
+ Github: https://github.com/bescott9944
+ Forums: https://www.ezeelinux.com/talk/bescott9944
+         https://forum.endeavouros.com/bescott9944
+ Licensed under the GNU and MIT respectively
 
 

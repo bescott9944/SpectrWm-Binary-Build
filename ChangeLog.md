@@ -4,7 +4,22 @@
      /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
          /_/                                 
 
-Lead Developer: Bruce E. Scott
+      _                                           
+     /  |_   _. ._   _   _  |  _   _    ._ _   _| 
+     \_ | | (_| | | (_| (/_ | (_) (_| o | | | (_| 
+                     _|            _|             
+
+
+ Lead Developer: Bruce E. Scott
+ Script Creator: Bruce E. Scott
+ Github: https://github.com/bescott9944
+ Forums: https://www.ezeelinux.com/talk/bescott9944
+         https://forum.endeavouros.com/bescott9944
+ Licensed under the GNU and MIT respectively
+
+# June 28th 2020
+Started the Spectrwm - Linux Mint 29 project
+# -----------------------------------------------------
 
 # July 1st 2020
 Created the Github page and setup all the files.
@@ -13,6 +28,7 @@ Added the Bash files, README.MD, Install.MD and so on.
 
 # July 2nd 2020
 Added some more and updates to the instructions.
+Made some file name changes.
 # -----------------------------------------------------
 
 # July 3rd
