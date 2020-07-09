@@ -93,6 +93,9 @@ WARNING: USE AT YOUR OWN RISK!
 
 With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing elsethat might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not to limited to the building of bonfires, dancing around said bonfires and howling at the MOON! YOU HAVE BEEN WARNED! -BES
 
+
+
+
 Lead Developer: Bruce E. Scott, Script Creator: Bruce E. Scott.
 
 Github: https://github.com/bescott9944.
@@ -100,5 +103,4 @@ Github: https://github.com/bescott9944.
 Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944.
 
 Licensed under the GNU and MIT respectively
-
 
