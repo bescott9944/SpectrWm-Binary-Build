@@ -8,24 +8,24 @@
     |_) |_  /\  | \ |\/| |_    _| ._ _  
     | \ |_ /--\ |_/ |  | |_ o (_| | | | 
 
-# Overview:
+## Overview:
 This SpectrWm Manual Binary Build & Manual Install was created so Future Updates of the binary can be easily implement and with the use of symlinks,
 to my ~/bin where I keep all my scripts files. I want to upgrade spectrwm without the use of the Disro's Repo's. and ease of upgrading my "your" spectrwm install.
 All you have to do is build the new binary file and place it in ~/bin (In My Build)...
 
-# This project is for & tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
+#### This project is for & tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
 
-# Known Issues:
-# I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work...
+## Known Issues:
+#### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work...
 
-# Inspiration:
+## Inspiration:
 This project was the result of a video that The Linux Dabbler produced on 6/29/2020, the video.(https://www.youtube.com/watch?v=tYC7qxnjka4}
 explained how to build the binaries and what dependencies might be needed of the build of SpectrWm.
 The whole point of the video was to show how to install SpectWm without using the outdated Repo versions and use the binaries from SpectrWm's GitHub page
 (https://github.com/conformal/spectrwm) and how to install it on a headless OS install where the systems boots straight in to SpectrWm.
 This was a great video and got me to think, can it be done on Linux Mint 20 in a VM using LightDm login manager...
 
-# Goal's:
+## Goal's:
 My goal of this project are to see if SpectrWm can be build, installed, and make it so it can be loaded using LightDm Login Manager and make the build without
 using "make install" to get everything working...
 Now after I spent 18 ours exploring this project, installing and testing all the dependencies needed to make this happen. I seen in the comments of
@@ -39,14 +39,14 @@ SpectrWm. :-)
 
 While I have not tested this to see, I like the idea...
 
-# Looked at the above suggestion...
+## Looked at the above suggestion...
 I did looked into this on Linux Mint 20 and it would require making changes to the source.list (which is blank) and add a bunch of stuff add to the file and formatted
 a curtain way and so on, so I elected to use my own Dependencies script instead of this method...
 
 I have added my bash script I made and all the files and dependencies I used to make this project work for ME and how I got Linux Mint 20 to show
 SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
 
-# Files of the project:
+## Files of the project:
  Install.MD
  The install instruction
 
@@ -56,7 +56,7 @@ SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
  After-Build.sh
  The Bash script to finish the install
 
-# Special Files:
+## Special Files:
 I have created "spectrwn-build-depend-mint20.sh" this will install the dependencies!
 I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
 permissions, symlinks and make the directories that are needed and put the spectrwn.config in the proper place in the USER .config folder..
