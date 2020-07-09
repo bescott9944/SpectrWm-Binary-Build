@@ -89,10 +89,10 @@ compile with out any errors.
 There was a lot of trial and error and a few hours of testing to produce this list. You mileage may vary as dependencies and files change over time. with that said this script is
 a good starting place. I have not tested this script on anything other than Linux Mint 20, in a VM for testing purpose...
 
-### WARNING: USE AT YOUR OWN RISK!
+#### WARNING: USE AT YOUR OWN RISK!
 
 With that said, Myself or any of my affiliates will not be held responsible for any loss of data, software, operating systems, damage to, wiping of, altering of, and any other thing that might happen using this script!That also includes the urges to drink lots of coffee, Rum, eating of junk food, and eating lots of Hot Pockets, and not limited to the building of bonfires, dancing around said bonfires and howling at the MOON!
-### YOU HAVE BEEN WARNED! -BES
+#### YOU HAVE BEEN WARNED! -BES
 
 
 
