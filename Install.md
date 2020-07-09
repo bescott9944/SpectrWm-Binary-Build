@@ -109,11 +109,11 @@ WoHo! I done IT!  :-D  :-)  :-P
 
 With that said, YES you can build SpectrWm 3.4.1 on a Linux Mint 20 install in a VM.
 
-! Lead Developer: Bruce E. Scott
-! Script Creator: Bruce E. Scott
-! Github: https://github.com/bescott9944
-! Forums: https://www.ezeelinux.com/talk/bescott9944
-!         https://forum.endeavouros.com/bescott9944
-! Licensed under the GNU and MIT respectively
+Lead Developer: Bruce E. Scott
+Script Creator: Bruce E. Scott
+Github: https://github.com/bescott9944
+Forums: https://www.ezeelinux.com/talk/bescott9944
+Forums: https://forum.endeavouros.com/bescott9944
+Licensed under the GNU and MIT respectively
 
 
