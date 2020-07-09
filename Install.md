@@ -54,8 +54,7 @@ in a few seconds the Spectrwm binary will be made in the /home/work/spectrwm-3.4
 The newly created files will be handled by the "after-build.sh" script once the bash file is ran.
 
 # In order to build the new Spectrwm binary you will have to install the dependencies, this will need to be done with my "spectrwn-build-depend-mint20.sh" script!
-
-# Please read the below additional information and manual instructions please...#
+# Please read the below additional information and manual instructions please...
 
 # The Story
 Now after figuring out all the dependencies and building the SpectrWm file as per Linux Dabbler's video, I wanted to see if it was possible to "make"
