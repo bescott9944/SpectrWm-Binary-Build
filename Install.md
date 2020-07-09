@@ -17,7 +17,7 @@ All you have to do is build the new binary file and place it in ~/bin (In My Bui
 
 The scripts and project was inspired by a video from The Linux Dabbler YouTube Channel. The Linux Dabbler Channel: https://www.youtube.com/channel/UC3pasXoRUTKPpQaKtlJz62g
 The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I watched to produce this project...
-# _____________________________________________________________
+# ________________________________________________
 
 ### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
 
