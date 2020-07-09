@@ -19,14 +19,14 @@ The scripts and project was inspired by a video from The Linux Dabbler YouTube C
 The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I watched to produce this project...
 # ________________________________________________
 
-### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
+# This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
 
 I have tested some more and I had a issue where Spectrwm would not load from the Login screen. so I add this to the README.MD
 
 # Known Issues
 ### I have had the "Make" Fail 2 times. So When, or If this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
 
-# Now it has come to mind, that some better install information needs to be added. #
+# Now it has come to mind, that some better install information needs to be added.
 
 The reason for this is because I'm thinking that some folks are not going to watch Linux Dabblers video and there needs to be a Better Overview on how to Make the Spectrwm Binary
 file to start with.
@@ -43,7 +43,7 @@ This whole project is based on the "WORK" directory in your /home folder "/home/
 that Work Folder.
 Once Extracted, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this folder will need to be renamed to "spectrwm-3.4.1" for my "after-build.sh" script to function as intended.
 
-### PLEASE remember if you use some other directory the "after-build.sh" script WILL NOT WORK!### You will have to alter the script to you NEEDS... ###
+### PLEASE remember if you use some other directory the "after-build.sh" script WILL NOT WORK! You will have to alter the script to you NEEDS...
 
 Once you have done all that done, you need to go to that /home/work folder, either in your file manager or from a terminal to the folder which you have renamed "spectrwm-3.4.1".
 ( /home/work/spectrwm-3.4.1 )
@@ -75,7 +75,7 @@ I have created a Bash file called "spectrwn-build-depend-mint20.sh" this will in
 I have created a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the binary files to their proper places and set the file
 permissions, symlinks and make the directories that are needed, then put the (default)spectrwn.config in the proper place in the USER's home .config folder..
 
-# Note you will have to edit the default spectrwm.config and baraction.sh files yourself to get Spectrwm and the baraction.sh to function. This is beyond the scope of this guide.#
+# Note you will have to edit the default spectrwm.config and baraction.sh files yourself to get Spectrwm and the baraction.sh to function. This is beyond the scope of this guide.
 
 1. Change the UN-archived file name of spectrwm-SPECTRWM_3_4_1 to the file name of spectrwm-3.4.1, from here on in this will be refereed to as spectrwm build folder.
 
