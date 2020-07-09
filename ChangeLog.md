@@ -75,9 +75,9 @@ With that said, like most thing it works for now! :-)
 I have tested some more and I had a issue where Spectrwm would not load from
 the Login screen with LightDM. so I add this to the README.MD
 
-### This project is for AN tested for Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros... ###
+# This project is for & tested for Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
 
-### I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work... ###
+# I have had the "Make" Fail 2 times. When or IF this happens, Spectrwm will not load. To check this, go to your ~/bin folder in a or open a terminal in that folder and type specrtwm on the command line (CLI) you should get a output that states you have spectrwm 3.4.1 and another WM is running. If you do not get this output then the build had Failed... Just "Make it again, copy it to your ~/bin folder and chmod +x the file and it should now load. No guarantee this will work...
 
 Also I'm updating the install.md with some better install information as I am
 thinking that some folks are not going to watch Linux Dabblers video. They will
