@@ -93,7 +93,14 @@ I also made a name change of the spectrwm-build-depend-mint20.sh to
 build-depend-mint20.sh for better clarification of the file...
 ### -----------------------------------------------------
 
+### July 18th 2020
+I fixed some punctuation today.
+I also made a change of the WORK forder discription for better
+clarification of the WORK folder and where the files need to be...
+### -----------------------------------------------------
+
 
 
 ### -----------------------------------------------------
 
+### -----------------------------------------------------
