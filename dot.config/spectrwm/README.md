@@ -1,4 +1,4 @@
-### My-Dot .config/spectrwn
+### My-Dot .config/spectrwm Folder
 This is my Spectrwm /home/bruce/.config/spectrwm files that I use on my
 Spectrwm build. These are various small scripts I created for my use.
 There not pretty but I never calmed to be a code writer but they work!
