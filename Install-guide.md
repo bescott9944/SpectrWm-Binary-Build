@@ -19,7 +19,7 @@ The scripts and project was inspired by a video from The Linux Dabbler YouTube C
 The Linux Dabbler's Video: https://www.youtube.com/watch?v=tYC7qxnjka4 that I watched to produce this project...
 ## ________________________________________________
 
-### This project is for AN tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
+### This project was designed for and tested on Linux Mint 20. While it may work on other Distros this has NOT BEEN TESTED with Other Distros...
 
 I have tested some more and I had a issue where Spectrwm would not load from the Login screen. so I add this to the README.MD
 
@@ -36,21 +36,21 @@ As of this writing the New Spectrwm 3.4.1 is under the "New Release" information
 ## DO Not "Clone" the page.
 Download the spectrwm.zip file from the "Releases" Link.
 
-After you have the download the Spectrwm Zip File, Un-Zip it into a folder to work from. I used a folder called "work" in my home directory (/home/work) to copy the downloaded
+After you have the download the Spectrwm Zip File, Un-Zip it into a folder to work from. I used a folder called "work" in my home directory (/home/user-name/work) to copy the downloaded
 Spectrwm.zip files to.
 
-This whole project is based on the "WORK" directory in your /home folder "/home/work"... Copy the Zip file you downloaded, to you /home/work folder and extract the zip file into
+This whole project is based on the "WORK" directory in your /home folder "/home/user-name/work"... Copy the Zip file you downloaded, to you /home/work folder and extract the zip file into
 that Work Folder.
 Once Extracted, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this folder will need to be renamed to "spectrwm-3.4.1" for my "after-build.sh" script to function as intended.
 
-### PLEASE remember if you use some other directory the "after-build.sh" script WILL NOT WORK! You will have to alter the script to you NEEDS...
+### PLEASE remember if you use some other directory other than /home/user-name/work the "after-build.sh" script WILL NOT WORK! You will have to alter the script to you NEEDS...
 
-Once you have done all that done, you need to go to that /home/work folder, either in your file manager or from a terminal to the folder which you have renamed "spectrwm-3.4.1".
-( /home/work/spectrwm-3.4.1 )
+Once you have done all that done, you need to go to that /home/user-name/work folder, either in your file manager or from a terminal to the folder which you have renamed "spectrwm-3.4.1".
+( /home/user-name/work/spectrwm-3.4.1 )
 
-From there you will find in the "spectrwm-3.4.1" folder, a folder called "linux" ( /home/work/spectrwm-3.4.1/linux ). Once there in your file manager you can right clock with your
-mouse and select from the popup window "Open in Terminal" or if you are in a terminal cd to /home/work/spectrwm-3.4.1/linux, where you will run the "make" command in the terminal and
-in a few seconds the Spectrwm binary will be made in the /home/work/spectrwm-3.4.1/linux folder with the other supported files. The new binary file created are Spectrwm.
+From there you will find in the "spectrwm-3.4.1" folder, a folder called "linux" ( /home/user-name/work/spectrwm-3.4.1/linux ). Once there in your file manager you can right clock with your
+mouse and select from the popup window "Open in Terminal" or if you are in a terminal cd to /home/user-name/work/spectrwm-3.4.1/linux, where you will run the "make" command in the terminal and
+in a few seconds the Spectrwm binary will be made in the /home/user-name/work/spectrwm-3.4.1/linux folder with the other supported files. The new binary file created are Spectrwm.
 The newly created files will be handled by the "after-build.sh" script once the bash file is ran.
 
 ### In order to build the new Spectrwm binary you will have to install the dependencies, this will need to be done with my "build-depend-mint20.sh" script!
@@ -102,7 +102,7 @@ SpectrWm is loaded into LightDm menu ( Last Hurdle ) as a pull down option to se
 
 No I did not use "make install" BUT I was close... Lol
 
-7. Oh! Now SpectrWm looks for the "spectrwm.conf" in ~.config/spectrwm Folder, Not User Home "~/ "...
+7. Oh! Now SpectrWm looks for the "spectrwm.conf" in /home/user-name/.config/spectrwm Folder, Not User Home "/home/use-name "...
 It only took me a hour to figure that one out. I could get SpectrWm to load from LightDm but it keep having exceptions error about "Xlock", I don't use it,
 then I remember a post that "spectrwm.conf" is now loads in the .config/Spectrwm folder... \:-|
 
