@@ -48,10 +48,9 @@ Once Extracted, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this fo
 Once you have done all that done, you need to go to that /home/user-name/work folder, either in your file manager or from a terminal to the folder which you have renamed "spectrwm-3.4.1".
 ( /home/user-name/work/spectrwm-3.4.1 )
 
-From there you will find in the "spectrwm-3.4.1" folder, a folder called "linux" ( /home/user-name/work/spectrwm-3.4.1/linux ). Once there in your file manager you can right clock with your
-mouse and select from the popup window "Open in Terminal" or if you are in a terminal cd to /home/user-name/work/spectrwm-3.4.1/linux, where you will run the "make" command in the terminal and
-in a few seconds the Spectrwm binary will be made in the /home/user-name/work/spectrwm-3.4.1/linux folder with the other supported files. The new binary file created are Spectrwm.
-The newly created files will be handled by the "after-build.sh" script once the bash file is ran.
+From there you will find in the "spectrwm-3.4.1" folder, a folder called "linux" ( /home/user-name/work/spectrwm-3.4.1/linux ). You will need to be in the "spectrwm-3.4.1/linux" FOLDER. Once there in your file manager you can right clock with your
+mouse button and select from the popup window "Open in Terminal" or if you are in a terminal cd to /home/user-name/work/spectrwm-3.4.1/linux, once again you need to be in the "spectrwm-3.4.1/linux" FOLDER where you will run the "make" command in the terminal. Then in a few seconds the Spectrwm binary will be bulit in the /home/user-name/work/spectrwm-3.4.1/linux folder with the other supported files. The new binary file created are in the spectrwm-3.4.1/linux FOLDER.
+The newly created files will be handled by the "after-build.sh" script and placed where they need to be once the after-build.sh bash file is ran.
 
 ### In order to build the new Spectrwm binary you will have to install the dependencies, this will need to be done with my "build-depend-mint20.sh" script!
 ### Please read the below additional information and manual instructions please...
@@ -78,7 +77,8 @@ permissions, symlinks and make the directories that are needed, then put the (de
 
 ### Note you will have to edit the default spectrwm.config and baraction.sh files yourself to get Spectrwm and the baraction.sh to function. This is beyond the scope of this guide.
 
-1. Change the UN-archived file name of spectrwm-SPECTRWM_3_4_1 to the file name of spectrwm-3.4.1, from here on in this will be refereed to as spectrwm build folder.
+## Manual Way if You like!
+1. Change the UN-archived compressed file name of spectrwm-SPECTRWM_3_4_1 to the file name of spectrwm-3.4.1, from here on in this will be refereed to as spectrwm build folder.
 
 2. There is a spectrwm.desktop file located in the spectrwm-3.4.1/linux folder that needs to be placed/copied into the /usr/share/xsessions folder where you will also find the
 cinnamon.desktop and cinnamon.desktop (software rendering), The files will Not have .desktop after then, it is masked I think. Doing this will let LightDm find and show
