@@ -99,8 +99,16 @@ I also made a change of the WORK forder discription for better
 clarification of the WORK folder and where the files need to be...
 ### -----------------------------------------------------
 
+### July 25th 2020
+Today it was brought to my attention that the guide was still
+a bit unclear on the process. I made some changes to the wording
+of the instruction. I hope the guide is a bit more clear on what
+to do...
+### -----------------------------------------------------
 
 
 ### -----------------------------------------------------
+
+
 
 ### -----------------------------------------------------
