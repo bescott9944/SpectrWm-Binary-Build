@@ -36,16 +36,17 @@ As of this writing the New Spectrwm 3.4.1 is under the "New Release" information
 ## DO Not "Clone" the page.
 Download the spectrwm.zip file from the "Releases" Link.
 
-After you have the download the Spectrwm Zip File, Un-Zip it into a folder to work from. I used a folder called "work" in my home directory (/home/user-name/work) to copy the downloaded
-Spectrwm.zip files to.
+After you have the download the Spectrwm Zip File, Un-Zip it into a folder to work from. I used a folder called "work" in my home directory (/home/user-name/work) to copy the downloaded Spectrwm.zip files to.
 
-This whole project is based on the "WORK" directory in your /home folder "/home/user-name/work"... Copy the Zip file you downloaded, to you /home/work folder and extract the zip file into
-that Work Folder.
+This whole project is based on the "WORK" directory in your /home folder "/home/user-name/work"... Copy the Zip file you downloaded, to you /home/work folder and extract the zip file into that Work Folder.
+
 Once Extracted, you will have a folder called "spectrwm-SPECTRWM_3_4_1", this folder will need to be renamed to "spectrwm-3.4.1" for my "after-build.sh" script to function as intended.
+
+Now run the bash script I created called "build-depend-mint20.sh", this will install all the dependencies that will be needed to build the binary files.
 
 ### PLEASE remember if you use some other directory other than /home/user-name/work the "after-build.sh" script WILL NOT WORK! You will have to alter the script to you NEEDS...
 
-Once you have done all that done, you need to go to that /home/user-name/work folder, either in your file manager or from a terminal to the folder which you have renamed "spectrwm-3.4.1".
+Once you have all that done, you need to go to the /home/user-name/work folder, either in your file manager or from a terminal, then go to the folder which you have renamed "spectrwm-3.4.1".
 ( /home/user-name/work/spectrwm-3.4.1 )
 
 From there you will find in the "spectrwm-3.4.1" folder, a folder called "linux" ( /home/user-name/work/spectrwm-3.4.1/linux ). You will need to be in the "spectrwm-3.4.1/linux" FOLDER. Once there in your file manager you can right clock with your
