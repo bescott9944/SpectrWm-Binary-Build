@@ -47,17 +47,16 @@ I have added my bash script I made and all the files and dependencies I used to 
 SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
 
 ## Files of the project:
- Install-guide.md
+ Install-guide.md - 
  The install instruction
 
- build-depend-mint20.sh
+ build-depend-mint20.sh - 
  The dependencies Bash install script
 
- After-Build.sh
+ After-Build.sh - 
  The Bash script to finish the install
 
- my-spectrwm-building-pross-mint20.tar.gz
-
+ my-spectrwm-building-pross-mint20.tar.gz - 
  This a compressed file of all of the files for the build process that can be downloaded.
  This will make getting all the files easier I think...
 
