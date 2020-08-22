@@ -56,6 +56,10 @@ SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
  After-Build.sh
  The Bash script to finish the install
 
+ my-spectrwm-building-pross-mint20.tar.gz
+ This a compressed file of all of the files for the build process that can be downloaded.
+ This will make getting all the files easier I think...
+
 ## Special Files:
 I have created "build-depend-mint20.sh" this will install the dependencies!
 I have made a Bash file called "After-Build.sh" to finish the install process. The "After-Build.sh" will copy all the files to their proper places and set the file
@@ -103,5 +107,5 @@ Github: https://github.com/bescott9944.
 
 Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944.
 
-Licensed under the GNU and MIT respectively!
+Licensed under the GNU 3.0
 
