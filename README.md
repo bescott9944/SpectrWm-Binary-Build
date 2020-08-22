@@ -57,6 +57,7 @@ SpectrWm in the LightDm Login Menu and load SpectrWm window manager...
  The Bash script to finish the install
 
  my-spectrwm-building-pross-mint20.tar.gz
+
  This a compressed file of all of the files for the build process that can be downloaded.
  This will make getting all the files easier I think...
 
