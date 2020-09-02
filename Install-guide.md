@@ -119,6 +119,8 @@ Script Creator: Bruce E. Scott
 
 Github: https://github.com/bescott9944
 
+Gitlab: https://gitlab.com/Bescott9944
+
 Forums: https://www.ezeelinux.com/talk/bescott9944
 
 Forums: https://forum.endeavouros.com/bescott9944
