@@ -1,4 +1,4 @@
-# SpectrWm-Binary-Build-Github-Readme.MD
+# SpectrWm-Binary-Build-Gitlab-Readme.MD
       ___ ___  ___ ____/ /______    ____ _  
      (_-</ _ \/ -_) __/ __/ __/ |/|/ /  ' \ 
     /___/ .__/\__/\__/\__/_/  |__,__/_/_/_/ 
@@ -69,7 +69,7 @@ permissions, symlinks and make the directories that are needed and put the spect
 
 Here are some of the NOTES from the Bash Script...
 
-Script Date: 06/29/2020, Script Creator: Bruce E. Scott, Github: https://github.com/bescott9944, Forums: https://www.ezeelinux.com/talk/bescott9944,
+Script Date: 06/29/2020, Script Creator: Bruce E. Scott, Github: https://github.com/bescott9944, Gitlab: https://gitlab.com/Bescott9944 Forums: https://www.ezeelinux.com/talk/bescott9944,
 https://forum.endeavouros.com/bescott9944, licensed under the GNU and MIT respectively
 
 PURPOSE Of This Script:
@@ -105,7 +105,10 @@ Lead Developer: Bruce E. Scott, Script Creator: Bruce E. Scott.
 
 Github: https://github.com/bescott9944.
 
+Gitlab: https://gitlab.com/Bescott9944
+
 Forums: https://www.ezeelinux.com/talk/bescott9944, https://forum.endeavouros.com/bescott9944.
 
 Licensed under the GNU 3.0
+
 
