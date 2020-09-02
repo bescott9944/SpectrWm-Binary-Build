@@ -107,15 +107,23 @@ to do...
 ### -----------------------------------------------------
 
 ### July 28th 2020
-Today I decited to package all of the neededfiles in a compressed file and
+Today I decited to package all of the needed files in a compressed file and
 I called it: my-spectrwm-building-pross-mint20.tar.gz... One can then download
 the whole process at once and save it to their drive for ease of use.
 
 On a side note I have tried this process on several Mint 20 VM's and on my
 Peppermint 10 installation and my Mint 20 instllation on my Linux box's.
-The process worked like a charm. I even modified some of the files to work on
-on my Arch install and it worked ok. Had to tweek some of the files needed but
+The process worked like a charm.
+I have even modified some of the files to work on my Arch install
+and it worked ok. Had to tweek some of the files needed but
 for the most part it worked....
+### -----------------------------------------------------
+
+### Aug 31st 2020
+On Aug 25th I opened a account on Gitlab after watching DistroTube's video
+Share you Dot Files.
+It took a week and 2 learning curve screw ups I got the Spectrwm project up
+on Gitlab at Gitlab: https://gitlab.com/Bescott9944...
 ### -----------------------------------------------------
 
 
